@@ -1,0 +1,19 @@
+2025-11-01, 205, 60, 15, 39.92
+Tire price found of 100.99 per tire
+
+
+2025-11-01, 225, 65, 17, 59.76
+Tire price found of 195.0 per tire
+
+
+2025-11-01, 225, 65, 17, 59.76
+Tire price found of 195.0 per tire
+
+
+2025-11-01, 265, 70, 17, 95.33
+Tire price found of 150.0 per tire
+
+2025-11-01, 185, 50, 14, 24.09
+2025-11-09, 205, 60, 15, 39.92
+Tire price found of $100.99 per tire
+

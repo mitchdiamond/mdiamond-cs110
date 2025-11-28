@@ -1,0 +1,34 @@
+import math
+
+def compute_area_square(sideLen):
+    area = compute_area_rectangle(sideLen, sideLen)
+    return area
+
+def compute_area_rectangle(widthLen, heightLen):
+    area = widthLen * heightLen
+    return area
+
+def compute_area_circle(radius):
+    area  = math.pi * math.pow(radius, 2)
+    return area
+
+userInput = ""
+
+while userInput != "quit":
+    userInput = input("What are you calculating the area of, a circle, square, or rectangle? ").lower()
+
+    if userInput == "square":
+        sideLen = float(input("What is the length of the side of the square? "))
+        area = compute_area_square(sideLen)
+        print(f"Area of the square is {area}.")
+    
+    if userInput == "rectangle":
+        widthLen = float(input("What is the length of the width of the rectangle? "))
+        heightLen = float(input("What is the length of the height of the rectangle? "))
+        area = compute_area_rectangle(widthLen, heightLen)
+        print(f"Area of the rectangle is {area}.")
+
+    if userInput == "circle":
+        radius = float(input("What is the radius of the circle? "))
+        area = compute_area_circle(radius)
+        print(f"Area of a circle is {area}")

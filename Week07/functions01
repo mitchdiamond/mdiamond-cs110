@@ -1,0 +1,15 @@
+def display_regular(inputString):
+    print(inputString)
+
+def display_uppercase(inputString):
+    outputString = inputString.upper()
+    print(outputString)
+
+def display_lowercase(inputString):
+    outputString = inputString.lower()
+    print(outputString)
+
+userInput = input("What is your message? ")
+display_regular(userInput)
+display_lowercase(userInput)
+display_uppercase(userInput)
