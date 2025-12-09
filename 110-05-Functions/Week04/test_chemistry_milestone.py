@@ -3,6 +3,7 @@
 from chemistry import make_periodic_table
 from pytest import approx
 import pytest
+import tkinter as tk
 
 
 # These are the indexes of the
