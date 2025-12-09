@@ -1,5 +1,5 @@
 # Copyright 2020, Brigham Young University-Idaho. All rights reserved.
-
+import tkinter
 from flashcards import FlashcardApp
 from pytest import approx
 import pytest
@@ -12,11 +12,13 @@ KANJI_INDEX = 1
 def test_load_card_bank():
     filename = "110-05-Functions\\FinalProject\\word_list.csv"
 
-    temp_flash_card_app = FlashcardApp()
-    root = tk.Tk()
+    root = tkinter.Tk()
     root.option_add("*font", "Helvetica 32")
 
-    japanese_dictionary = temp_flash_card_app.load_card_bank(temp_flash_card_app, filename)
+    temp_flash_card_app = FlashcardApp(root)
+
+
+    japanese_dictionary = temp_flash_card_app.load_card_bank(filename)
 
     # Verify that the make_periodic_table function returns a dictionary.
     assert isinstance(japanese_dictionary, dict), \

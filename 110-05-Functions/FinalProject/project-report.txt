@@ -1,0 +1,39 @@
+Student Project Report
+
+Do the following:
+
+1. In the table below, list the dates, amount of time spent, and
+description of the work that you did on your project. Follow the example
+that is in the first row of the table below. Include the time you spent
+doing any of the following:
+    a. discussing your project with your teacher, tutor, or fellow students
+    b. researching by reading articles and watching applicable videos
+    c. designing your project by drawing diagrams and other applicable documents
+    d. writing experimental code
+    d. writing code for your project
+    e. writing test functions
+    f. debugging your code
+    g. any other activity that helped you complete your project
+
+=============Example====================
+            Time Spent
+   Date       (hours)   Description of Work
+----------  ----------  -------------------------
+2021-12-03      2.5     Wrote two program functions and two test functions
+2021-12-03      .5      Watched video on 
+=============Example====================
+
+2025-12-04	2	Wrote base framework of the GUI and loading the CSV
+2025-12-04	1	Researched cycling through dictionary and trying this in my program.
+2025-12-05	1	Implemented a key bank for the program rather than looping through the dictionary.
+2025-12-05 	1	Established GUI from the key bank to show the proper prompts from the randomly generated key bank.
+2025-12-06	0.5	Set up answer checking function
+2025-12-06	2.5	Updated the answer checking function to ensure that the text and colors of the answer to show if it is correct.
+2025-12-08	0.5	Setting up text feedback.
+2025-12-08	1.5	Setting up dictionary test.
+2025-12-09	1	Attempting to get check_answers to work with a button and input. Ended up reverting back.
+2025-12-09	1	Cleaning up the code and adding notes.
+
+2. In Canvas, submit this completed text file, your Python program, your
+Python test file, and any project data files such as .txt and .csv files and
+link to video walkthrough if needed.
