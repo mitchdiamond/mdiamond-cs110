@@ -1,3 +1,17 @@
+"""
+Title: Japanese Flashcards
+Author: Mitch Diamond
+
+Description: Flashcard app that works off of a csv file for the word bank. User selects how many cards they wish to study
+at a time. The program will show a kanji and the user will be able to enter in the english definition. 
+After submitting the word, it'll show either green when correct and pink when incorrect.
+
+Adjustments: Creating the tests within the class object ended up taking a lot more time than I was able to give it. 
+Was able to set up tests for the dictionary both for the file being valid as well as the variables within them. Also
+was not able to add in the saving feature I wanted to with the time allotted.
+
+"""
+
 import tkinter
 import csv
 from tkinter import *
